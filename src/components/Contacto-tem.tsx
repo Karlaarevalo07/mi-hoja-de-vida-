@@ -17,7 +17,7 @@ const Contacto = () => {
   };
 
   return (
-    <section id="contacto" className="container my-5">
+    <section id="contacto" className="container-fluid px-5 py-4">
       <h2>Contacto</h2>
       {error && <p style={{ color: "red" }}>{error}</p>}
       <form onSubmit={handleSubmit}>

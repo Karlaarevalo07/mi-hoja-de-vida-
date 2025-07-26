@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Gris claro */
+}
+
+h2 {
+  color: #0d6efd; /* Azul Bootstrap */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+section {
+  background: white;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

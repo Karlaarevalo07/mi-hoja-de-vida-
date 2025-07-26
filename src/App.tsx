@@ -1,10 +1,10 @@
-import Header from './components/Header';
-import Perfil from './components/Perfil';
-import Formacion from './components/Formacion';
-import Experiencia from './components/Experiencia';
-import Habilidades from './components/Habilidades';
-import Proyectos from './components/Proyectos';
-import Contacto from './components/Contacto';
+import Header from './components/header-tem';
+import Perfil from './components/perfil-tem';
+import Formacion from './components/formacion-tem';
+import Experiencia from './components/experiencia-tem';
+import Habilidades from './components/habiliddes-tem';
+import Proyectos from './components/proyecto-tem';
+import Contacto from './components/Contacto-tem';
 
 const App = () => {
   return (
@@ -20,4 +20,4 @@ const App = () => {
   );
 };
 
-export default App; // ✅ Muy importante
+export default App;
